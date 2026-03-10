@@ -1,0 +1,14 @@
+[project]
+name = "podstawyprzetwarzaniaduzychzbiorowdanych"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "db-dtypes>=1.5.0",
+    "google-cloud-bigquery>=3.40.1",
+    "google-cloud-bigquery-storage>=2.36.2",
+    "ipykernel>=7.2.0",
+    "pandas>=2.3.3",
+    "pandas-stubs~=2.3.3",
+    "pyarrow>=23.0.1",
+]
